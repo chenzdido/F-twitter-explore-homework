@@ -3,4 +3,14 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: $heading-padding-y $heading-padding-x;
+  border-bottom: 1px solid $white;
+
+  nav {
+    .btn-login {
+      @include btn-variant($primary-color, $body-bg);
+    }
+    .btn-register {
+      @include btn-variant($white, $primary-color);
+    }
+  }
 }
