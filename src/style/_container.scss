@@ -20,6 +20,7 @@ form {
   flex-direction: column;
   justify-content: space-around;
   .input {
+    //TODO feedback: 看了一下，.menu只被这一个地方使用了，所以没有必要抽取一个class出来，然后被其他class去继承
     @extend .menu;
   }
   .btn-formlogin {
